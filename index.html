@@ -1,430 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marin Comics</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <style>
-      .video-container {
-        overflow: hidden;
-        position: relative;
-        width: 100%;
-      }
 
-      .video-container::after {
-        padding-top: 56.25%;
-        display: block;
-        content: "";
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marin Comics</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <style>
+    .video-container {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+    }
 
-      .video-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
-    </style>
-  </head>
+    .video-container::after {
+      padding-top: 56.25%;
+      display: block;
+      content: "";
+    }
 
-  <body>
-    <nav
-      class="d-flex flex-wrap justify-content-center p-3 bg-primary bg-gradient text-light"
-    >
-      <a
-        href="https://marincomics.com"
-        class="d-flex align-items-center mb-md-1 me-md-auto text-dark text-decoration-none"
-      >
-        <img
-          src="https://marincomics.com/img/marincomics-logo.png"
-          alt="Marin Comics"
-          height="50px"
-        />
-      </a>
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
 
-      <ul class="nav nav-pills me-4">
-        <li class="nav-item">
-          <a
-            href="https://marincomics.com/index.html#dev-projects"
-            class="nav-link link-light"
-            >Dev-Projects</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            href="https://marincomics.com/index.html#writing"
-            class="nav-link link-light"
-            >Writing</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            href="https://marincomics.com/index.html#videos"
-            class="nav-link link-light"
-            >Videos</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            href="https://marincomics.com/index.html#comics"
-            class="nav-link link-light"
-            >Comics</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            href="https://marincomics.com/about.html"
-            class="nav-link link-light"
-            >About</a
-          >
-        </li>
-      </ul>
-    </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p class="text-center">
-            <a href="http://eventradar-app.herokuapp.com" target="_blank"
-              ><img
-                src="img/eventradar.png"
-                alt="EventRadar"
-                max-height="100px"
-                class="img-fluid"
-            /></a>
-          </p>
-          <h3 class="text-center">
-            EventRadar, the Calendar of Sports Events.
-          </h3>
-          <p class="text-center">
-            <a
-              href="http://eventradar-app.herokuapp.com"
-              target="_blank"
-              class="btn btn-outline-primary m-2"
-              >EventRadar Web App</a
-            >
-            <a
-              href="https://github.com/mbalabanov/eventradar"
-              target="_blank"
-              class="btn btn-outline-primary m-2"
-              >GitHub Project Repository</a
-            >
-          </p>
+<body>
+  <nav class="d-flex flex-wrap justify-content-center p-3 bg-primary bg-gradient text-light">
+    <a href="https://marincomics.com"
+      class="d-flex align-items-center mb-md-1 me-md-auto text-dark text-decoration-none">
+      <img src="https://marincomics.com/img/marincomics-logo.png" alt="Marin Comics" height="50px" />
+    </a>
+    <ul class="nav nav-pills me-4">
+      <li class="nav-item">
+        <a href="https://marincomics.com/index.html#comics" class="nav-link link-light">Comics</a>
+      </li>
+      <li class="nav-item">
+        <a href="https://marincomics.com/index.html#dev-projects" class="nav-link link-light">Dev-Projects</a>
+      </li>
+      <li class="nav-item">
+        <a href="https://marincomics.com/index.html#writing" class="nav-link link-light">Writing</a>
+      </li>
+      <li class="nav-item">
+        <a href="https://marincomics.com/index.html#videos" class="nav-link link-light">Videos</a>
+      </li>
+      <li class="nav-item">
+        <a href="https://marincomics.com/about.html" class="nav-link link-light">About</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-center">
+          <a href="http://eventradar-app.herokuapp.com" target="_blank"><img src="img/eventradar.png" alt="EventRadar"
+              max-height="100px" class="img-fluid" /></a>
+        </p>
+        <h3 class="text-center">
+          EventRadar, the Calendar of Sports Events.
+        </h3>
+        <p class="text-center">
+          <a href="http://eventradar-app.herokuapp.com" target="_blank" class="btn btn-outline-primary m-2">EventRadar
+            Web App</a>
+          <a href="https://github.com/mbalabanov/eventradar" target="_blank" class="btn btn-outline-primary m-2">GitHub
+            Project Repository</a>
+        </p>
 
-          <p>
-            <strong>EventRadar</strong> is a calendar of sports events, where
-            events can be added and categorized based on sports. I have
-            implemented a simple user registration and login, so that only
-            signed-in users can make changes to the calendar. I developed it in
-            PHP, Symfony, TWIG (with Bootstrap 5), and MySQL. I have deployed
-            the web application to Heroku at
-            <a href="http://eventradar-app.herokuapp.com" target="_blank"
-              >EventRadar Web App</a
-            >. The MySQL database is running on a free tier of ClearDB (which
-            provides an easy add-on for Heroku).
-          </p>
-          <h4 class="text-center">
-            A Quick Tour of the Features of EventRadar
-          </h4>
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <div class="video-container">
-                <iframe
-                  src="https://www.youtube.com/embed/o6BD1CKfI9k"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </div>
-              <br /><a
-                href="https://youtu.be/o6BD1CKfI9k"
-                target="_blank"
-                class="btn btn-outline-primary btn-sm m-2"
-                >Watch Video on Youtube</a
-              >
+        <p>
+          <strong>EventRadar</strong> is a calendar of sports events, where
+          events can be added and categorized based on sports. I have
+          implemented a simple user registration and login, so that only
+          signed-in users can make changes to the calendar. I developed it in
+          PHP, Symfony, TWIG (with Bootstrap 5), and MySQL. I have deployed
+          the web application to Heroku at
+          <a href="http://eventradar-app.herokuapp.com" target="_blank">EventRadar Web App</a>. The MySQL database is
+          running on a free tier of ClearDB (which
+          provides an easy add-on for Heroku).
+        </p>
+        <h4 class="text-center">
+          A Quick Tour of the Features of EventRadar
+        </h4>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/o6BD1CKfI9k" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
             </div>
+            <br /><a href="https://youtu.be/o6BD1CKfI9k" target="_blank"
+              class="btn btn-outline-primary btn-sm m-2">Watch Video on Youtube</a>
           </div>
-          <div class="row mt-5">
-            <div class="col-md-12 text-center">
-              <h3>EventRadar Features</h3>
-            </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-12 text-center">
+            <h3>EventRadar Features</h3>
           </div>
+        </div>
 
-          <div class="row">
-            <div class="col-md-6 text-center py-4">
-              <img
-                src="img/eventradar-overview.png"
-                alt="List of Sports Events"
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#eventradar1"
-              />
-              <button
-                type="button"
-                class="btn btn-outline-primary btn-sm m-2"
-                data-bs-toggle="modal"
-                data-bs-target="#eventradar1"
-              >
-                Zoom Image
-              </button>
-            </div>
-            <div class="col-md-6 p-4">
-              <h4>List of Sports Events</h4>
-              <p>
-                Visitors at
-                <a href="http://eventradar-app.herokuapp.com"
-                  >eventradar-app.herokuapp.com</a
-                >
-                are presented with a list of upcoming events. They can filter
-                the events be category or by date (future or past events).
-                Selecting "Details" presents them with further information about
-                the event including the contact infos of the event's location.
-              </p>
-              <p>
-                Regular visitors cannot make any changes to the event data, this
-                is reserved to users who have registered and signed in. You can
-                use the guest user user@gmail.com (PW: 123123) to try the admin
-                area yourself.
-              </p>
-            </div>
-          </div>
-
-          <!-- Modal -->
-          <div
-            class="modal fade"
-            id="eventradar1"
-            tabindex="-1"
-            aria-labelledby="eventradar1"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-dialog-scrollable modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="eventradar1">
-                    List of Sports Events
-                  </h5>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <img
-                    src="img/eventradar-overview.png"
-                    class="img-fluid"
-                    alt="List of Sports Events"
-                  />
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-primary"
-                    data-bs-toggle="modal"
-                    data-bs-target="#eventradar3"
-                    data-bs-dismiss="modal"
-                  >
-                    Next &raquo;
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-6 offset-md-1 p-4">
-              <h4>Event Details</h4>
-              <p>
-                Each event has a separate details page showing the marketing
-                slogan, the dates and the teams playing. A longer text is
-                provided with a description. This can be used to describe the
-                circumstances and challenges the participating teams face. If an
-                event is over and the results are entered, then the scores are
-                displayed.
-              </p>
-              <p>
-                Clicking on the team name shows the team details including the
-                team members. In this example most teams only contain
-                placeholder data, only Rapid Wien, FC Bayern München and Sturm
-                Graz feature real team information and player data.
-              </p>
-              <h4>Editing Content</h4>
-              <p>
-                When a user is logged in they can click on the 'Admin' menu in
-                the top right corner of the navigation. The menu lists all the
-                available views. These include
-                <strong>events</strong>, <strong>locations</strong>,
-                <strong>teams</strong>, <strong>persons</strong> (team members),
-                <strong>roles</strong>, <strong>leagues</strong>,
-                <strong>contests</strong>, <strong>sports categories</strong>,
-                and <strong>countries</strong>. They can access the
-                <strong>instructions</strong>, for more information on how to
-                make changes.
-              </p>
-            </div>
-            <div class="col-md-4 text-center py-4">
-              <img
-                src="img/eventradar3.png"
-                alt="Editing Content"
-                class="img-fluid"
-                data-bs-toggle="modal"
-                data-bs-target="#eventradar3"
-              />
-              <button
-                type="button"
-                class="btn btn-outline-primary btn-sm m-2"
-                data-bs-toggle="modal"
-                data-bs-target="#eventradar3"
-              >
-                Zoom Image
-              </button>
-            </div>
-          </div>
-
-          <!-- Modal -->
-          <div
-            class="modal fade"
-            id="eventradar3"
-            tabindex="-1"
-            aria-labelledby="eventradar3"
-            aria-hidden="true"
-            data-bs-toggle="modal"
-            data-bs-target="#eventradar3"
-          >
-            <button
-              type="button"
-              class="btn btn-outline-primary"
-              data-bs-toggle="modal"
-              data-bs-target="#eventradar3"
-            >
-              Zoom
+        <div class="row">
+          <div class="col-md-6 text-center py-4">
+            <img src="img/eventradar-overview.png" alt="List of Sports Events" class="img-fluid" data-bs-toggle="modal"
+              data-bs-target="#eventradar1" />
+            <button type="button" class="btn btn-outline-primary btn-sm m-2" data-bs-toggle="modal"
+              data-bs-target="#eventradar1">
+              Zoom Image
             </button>
-            <div class="modal-dialog modal-dialog-scrollable modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="eventradar3">Editing Content</h5>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <img
-                    src="img/eventradar3.png"
-                    class="img-fluid"
-                    alt="EventRadar"
-                  />
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-primary"
-                    data-bs-toggle="modal"
-                    data-bs-target="#eventradar1"
-                    data-bs-dismiss="modal"
-                  >
-                    &laquo; Previous
-                  </button>
-                </div>
+          </div>
+          <div class="col-md-6 p-4">
+            <h4>List of Sports Events</h4>
+            <p>
+              Visitors at
+              <a href="http://eventradar-app.herokuapp.com">eventradar-app.herokuapp.com</a>
+              are presented with a list of upcoming events. They can filter
+              the events be category or by date (future or past events).
+              Selecting "Details" presents them with further information about
+              the event including the contact infos of the event's location.
+            </p>
+            <p>
+              Regular visitors cannot make any changes to the event data, this
+              is reserved to users who have registered and signed in. You can
+              use the guest user user@gmail.com (PW: 123123) to try the admin
+              area yourself.
+            </p>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="eventradar1" tabindex="-1" aria-labelledby="eventradar1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="eventradar1">
+                  List of Sports Events
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="img/eventradar-overview.png" class="img-fluid" alt="List of Sports Events" />
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#eventradar3"
+                  data-bs-dismiss="modal">
+                  Next &raquo;
+                </button>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <p>
-            <a href="http://eventradar-app.herokuapp.com" target="_blank"
-              ><img
-                src="img/eventradar.png"
-                alt="EventRadar"
-                max-height="80px"
-                class="img-fluid"
-            /></a>
-          </p>
-          <h3>Event Calendar Concept</h3>
-          <p>
-            This is the application concept. This consists of a
-            <strong>sitemap</strong>, <strong>wireframes</strong> of each view
-            and a <strong>database model</strong>.
-          </p>
+        <div class="row">
+          <div class="col-md-6 offset-md-1 p-4">
+            <h4>Event Details</h4>
+            <p>
+              Each event has a separate details page showing the marketing
+              slogan, the dates and the teams playing. A longer text is
+              provided with a description. This can be used to describe the
+              circumstances and challenges the participating teams face. If an
+              event is over and the results are entered, then the scores are
+              displayed.
+            </p>
+            <p>
+              Clicking on the team name shows the team details including the
+              team members. In this example most teams only contain
+              placeholder data, only Rapid Wien, FC Bayern München and Sturm
+              Graz feature real team information and player data.
+            </p>
+            <h4>Editing Content</h4>
+            <p>
+              When a user is logged in they can click on the 'Admin' menu in
+              the top right corner of the navigation. The menu lists all the
+              available views. These include
+              <strong>events</strong>, <strong>locations</strong>,
+              <strong>teams</strong>, <strong>persons</strong> (team members),
+              <strong>roles</strong>, <strong>leagues</strong>,
+              <strong>contests</strong>, <strong>sports categories</strong>,
+              and <strong>countries</strong>. They can access the
+              <strong>instructions</strong>, for more information on how to
+              make changes.
+            </p>
+          </div>
+          <div class="col-md-4 text-center py-4">
+            <img src="img/eventradar3.png" alt="Editing Content" class="img-fluid" data-bs-toggle="modal"
+              data-bs-target="#eventradar3" />
+            <button type="button" class="btn btn-outline-primary btn-sm m-2" data-bs-toggle="modal"
+              data-bs-target="#eventradar3">
+              Zoom Image
+            </button>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 text-center">
-          <h4 class="mt-4">Sitemap</h4>
-          <p>
-            The sitemap shows the possible paths through all the different
-            views.
-          </p>
-          <p>
-            <img
-              src="img/02_sitemap.png"
-              class="img-fluid px-5"
-              alt="Sitemap of EventRadar"
-            />
-          </p>
-        </div>
-        <div class="col-md-6 text-center">
-          <h4 class="mt-4">Wireframes</h4>
-          <p>The wireframes describe each view and its individual functions.</p>
-          <p>
-            <img
-              src="img/03_wireframes.png"
-              class="img-fluid px-5"
-              alt="Wireframes of EventRadar"
-            />
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h4 class="mt-4">Database Model</h4>
-          <p>
-            The DB model describes all the tables, their items and how they
-            relate to other tables.
-          </p>
-          <p>
-            <img
-              src="img/01_db-model.png"
-              class="img-fluid px-5"
-              alt="DB model of EventRadar"
-            />
-          </p>
+
+        <!-- Modal -->
+        <div class="modal fade" id="eventradar3" tabindex="-1" aria-labelledby="eventradar3" aria-hidden="true"
+          data-bs-toggle="modal" data-bs-target="#eventradar3">
+          <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#eventradar3">
+            Zoom
+          </button>
+          <div class="modal-dialog modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="eventradar3">Editing Content</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="img/eventradar3.png" class="img-fluid" alt="EventRadar" />
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#eventradar1"
+                  data-bs-dismiss="modal">
+                  &laquo; Previous
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <footer class="bg-dark text-muted py-5">
-      <div class="container">
-        <p class="float-end mb-1">
-          <a href="#">Back to top</a>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>
+          <a href="http://eventradar-app.herokuapp.com" target="_blank"><img src="img/eventradar.png" alt="EventRadar"
+              max-height="80px" class="img-fluid" /></a>
         </p>
-        <p class="mb-1">
-          Showcase of side projects, videos and writing about comics, computer
-          history and development.
+        <h3>Event Calendar Concept</h3>
+        <p>
+          This is the application concept. This consists of a
+          <strong>sitemap</strong>, <strong>wireframes</strong> of each view
+          and a <strong>database model</strong>.
         </p>
       </div>
-    </footer>
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
+    </div>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <h4 class="mt-4">Sitemap</h4>
+        <p>
+          The sitemap shows the possible paths through all the different
+          views.
+        </p>
+        <p>
+          <img src="img/02_sitemap.png" class="img-fluid px-5" alt="Sitemap of EventRadar" />
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <h4 class="mt-4">Wireframes</h4>
+        <p>The wireframes describe each view and its individual functions.</p>
+        <p>
+          <img src="img/03_wireframes.png" class="img-fluid px-5" alt="Wireframes of EventRadar" />
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h4 class="mt-4">Database Model</h4>
+        <p>
+          The DB model describes all the tables, their items and how they
+          relate to other tables.
+        </p>
+        <p>
+          <img src="img/01_db-model.png" class="img-fluid px-5" alt="DB model of EventRadar" />
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-muted py-5">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a href="#">Back to top</a>
+      </p>
+      <p class="mb-1">
+        Showcase of side projects, videos and writing about comics, computer
+        history and development.
+      </p>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
