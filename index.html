@@ -5,29 +5,35 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Marin Comics</title>
+  <title>EventRadar, the Calendar of Sports Events. | Marin Comics</title>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <style>
-    .video-container {
-      overflow: hidden;
-      position: relative;
-      width: 100%;
-    }
-
-    .video-container::after {
-      padding-top: 56.25%;
-      display: block;
-      content: "";
-    }
-
-    .video-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  </style>
+  <link rel="stylesheet" href="../css/custom.css" />
+  <link rel="canonical" href="https://marincomics.com/project-eventradar-docs/index.html" />
+  <meta
+    property="og:title"
+    content="EventRadar, the Calendar of Sports Events."
+  />
+  <meta
+    property="og:description"
+    name="description"
+    content="EventRadar is a calendar of sports events, where
+    events can be added and categorized based on sports. I have
+    implemented a simple user registration and login, so that only
+    signed-in users can make changes to the calendar. I developed it in
+    PHP, Symfony, TWIG (with Bootstrap 5), and MySQL. When the
+    application was still available publicly, I had deployed it to
+    Heroku. Back then, the MySQL database was running on a free tier of
+    ClearDB (which provides an easy add-on for Heroku)."
+  />
+  <meta
+    name="keywords"
+    content="EventRadar, sports events, calendar, PHP, Symfony, TWIG, Bootstrap 5, MySQL, Heroku, ClearDB"
+  />
+  <meta
+    property="og:image"
+    content="https://marincomics.com/project-eventradar-docs/img/eventradar-header.jpg"
+  />
+  <meta name="author" content="Marin Balabanov" />
 </head>
 
 <body>
@@ -278,6 +284,7 @@
     </div>
   </footer>
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="../js/search.js"></script>
 </body>
 
 </html>
